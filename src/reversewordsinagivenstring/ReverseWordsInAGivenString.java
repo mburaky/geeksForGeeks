@@ -18,7 +18,7 @@ public class ReverseWordsInAGivenString {
             // function
             String result = "";
             for(int i = arr.length-1; i>=0; i--){
-                result = result + arr[i];
+                result += arr[i];
                 if(i != 0){
                     result += ".";
                 }
